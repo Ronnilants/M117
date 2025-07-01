@@ -2,7 +2,7 @@
 
 # Netzwerkübersicht & Dokumentation – WG "La familia"
 
-## 📦 Materialien für Gigabit-Ethernet (1000 MBit/s)
+## Materialien für Gigabit-Ethernet (1000 MBit/s)
 
 ### 1. Patchkabel (flexibel)
 **Typ:** Cat6a S/FTP (Litze)  
@@ -34,7 +34,7 @@
 
 ---
 
-## 🌐 IP-Adressen und Subnetting
+## IP-Adressen und Subnetting
 
 ### Private IPv4-Adressbereiche
 | Bereich               | Klasse früher | Beschreibung                 |
@@ -73,10 +73,10 @@
 
 | Paar | Kommunikation | Grund                                           |
 |------|---------------|--------------------------------------------------|
-| 1    | ✅ Ja         | Beide im gleichen Subnetz (192.168.1.0/24)      |
-| 2    | ✅ Ja         | Beide im gleichen Subnetz (192.168.0.0/16)      |
-| 3    | ❌ Nein       | Unterschiedliche Subnetze                       |
-| 4    | ✅ Ja         | Beide im Netz 10.0.0.0/8                         |
+| 1    |  Ja         | Beide im gleichen Subnetz (192.168.1.0/24)      |
+| 2    |  Ja         | Beide im gleichen Subnetz (192.168.0.0/16)      |
+| 3    |  Nein       | Unterschiedliche Subnetze                       |
+| 4    |  Ja         | Beide im Netz 10.0.0.0/8                         |
 
 ---
 
@@ -84,14 +84,14 @@
 
 | Paar | Kommunikation | Grund                                      |
 |------|---------------|---------------------------------------------|
-| 1    | ❌ Nein       | Unterschiedliche Masken (/8 vs. /24)        |
-| 2    | ❌ Nein       | Ungültige IP (258 ist kein gültiges Oktett) |
-| 3    | ✅ Ja         | Beide im Netz 172.0.0.0/8                    |
-| 4    | ❌ Nein       | Unterschiedliche Subnetze                   |
+| 1    |  Nein       | Unterschiedliche Masken (/8 vs. /24)        |
+| 2    |  Nein       | Ungültige IP (258 ist kein gültiges Oktett) |
+| 3    |  Ja         | Beide im Netz 172.0.0.0/8                    |
+| 4    |  Nein       | Unterschiedliche Subnetze                   |
 
 ---
 
-## 🧠 Netzwerkwissen kompakt
+## Netzwerkwissen kompakt
 
 ### Ports & Dienste
 
@@ -143,7 +143,7 @@ Bezogen auf aktuelles Verzeichnis (z. B. `..\Bilder\foto.jpg`)
 
 ---
 
-## 🔐 Sicherheit
+## Sicherheit
 
 **USB-Stick verloren (FAT32):**  
 → Sofort Maßnahmen: Passwörter ändern, Bank informieren, Cloud-Zugänge prüfen
@@ -175,7 +175,7 @@ Bezogen auf aktuelles Verzeichnis (z. B. `..\Bilder\foto.jpg`)
 
 ---
 
-## 🧪 Wireshark & Netzwerkdiagnose
+## Wireshark & Netzwerkdiagnose
 
 ### Wichtige Filter:
 - **ICMP (Ping):** `icmp`
@@ -204,5 +204,5 @@ Bezogen auf aktuelles Verzeichnis (z. B. `..\Bilder\foto.jpg`)
 
 ---
 
-> 📅 Letzte Aktualisierung: 01.07.2025  
+> Letzte Aktualisierung: 01.07.2025  
 > Autor: Deine IT-AG der WG „La familia“
